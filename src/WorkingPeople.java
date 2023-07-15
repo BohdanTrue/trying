@@ -18,10 +18,15 @@ public class WorkingPeople {
     public void sayHowOldAreYou(){
         System.out.println("I'm " + age + " years old");
     }
+
+    public void whatAreYouDoing(){
+        System.out.println("nothing");
+    }
     public static void main(String[] args) {
         WorkingPeople person1 = new WorkingPeople("vasya", 43, "sirzavod", "gruz4ik");
         person1.sayHello();
         person1.sayHowOldAreYou();
+        person1.whatAreYouDoing();
     }
 }
 
